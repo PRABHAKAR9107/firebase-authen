@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Authentication Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project implements an authentication page where users can sign up, sign in, or reset their passwords using a refresh token. The authentication process is implemented using the [Firebase](https://firebase.google.com/) platform.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- User Sign Up: New users can create an account by providing their email address and password.
+- User Sign In: Existing users can sign in to access the authenticated features.
+- Password Reset: Users can request a password reset email to reset their passwords.
+- Token-based Authentication: Refresh tokens are used for secure authentication and to maintain user sessions.
 
-### `yarn start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [React](https://reactjs.org/) - JavaScript library for building user interfaces.
+- [Firebase](https://firebase.google.com/) - Platform for authentication, database, and hosting.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Home Page
 
-### `yarn test`
+The home page can only be accessed by authenticated users. If an unauthenticated user tries to access it, they will be redirected to the authentication page.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Lazy Loading with API
 
-### `yarn build`
+The project implements lazy loading functionality using a given API to fetch a large dataset. The dataset is loaded in chunks as the user scrolls or interacts with the page.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- API for lazy loading: [https://api.instantwebtools.net/v1/passenger?page=0&size=10](https://api.instantwebtools.net/v1/passenger?page=0&size=10)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project Hosting and Repository
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The project is hosted on [GitHub Pages](https://pages.github.com/) and the repository can be found at:
 
-### `yarn eject`
+- Repository: [https://github.com/your-username/your-repository](https://github.com/your-username/your-repository)
+- Hosted Application: [https://your-username.github.io/your-application](https://your-username.github.io/your-application)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to explore the code and the live application!
