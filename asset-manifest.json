@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/PRABHAKAR9107/firebase-authen/static/css/main.3d8ac20a.chunk.css",
+    "main.js": "/PRABHAKAR9107/firebase-authen/static/js/main.d31ea141.chunk.js",
+    "main.js.map": "/PRABHAKAR9107/firebase-authen/static/js/main.d31ea141.chunk.js.map",
+    "runtime-main.js": "/PRABHAKAR9107/firebase-authen/static/js/runtime-main.72cc3d03.js",
+    "runtime-main.js.map": "/PRABHAKAR9107/firebase-authen/static/js/runtime-main.72cc3d03.js.map",
+    "static/css/2.cbedb215.chunk.css": "/PRABHAKAR9107/firebase-authen/static/css/2.cbedb215.chunk.css",
+    "static/js/2.ec5a57de.chunk.js": "/PRABHAKAR9107/firebase-authen/static/js/2.ec5a57de.chunk.js",
+    "static/js/2.ec5a57de.chunk.js.map": "/PRABHAKAR9107/firebase-authen/static/js/2.ec5a57de.chunk.js.map",
+    "index.html": "/PRABHAKAR9107/firebase-authen/index.html",
+    "static/css/2.cbedb215.chunk.css.map": "/PRABHAKAR9107/firebase-authen/static/css/2.cbedb215.chunk.css.map",
+    "static/css/main.3d8ac20a.chunk.css.map": "/PRABHAKAR9107/firebase-authen/static/css/main.3d8ac20a.chunk.css.map",
+    "static/js/2.ec5a57de.chunk.js.LICENSE.txt": "/PRABHAKAR9107/firebase-authen/static/js/2.ec5a57de.chunk.js.LICENSE.txt",
+    "static/js/main.d31ea141.chunk.js.LICENSE.txt": "/PRABHAKAR9107/firebase-authen/static/js/main.d31ea141.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.72cc3d03.js",
+    "static/css/2.cbedb215.chunk.css",
+    "static/js/2.ec5a57de.chunk.js",
+    "static/css/main.3d8ac20a.chunk.css",
+    "static/js/main.d31ea141.chunk.js"
+  ]
+}
